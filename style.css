@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.warning {
+    display: block;
+
+    background-color: rgb(217, 0, 0);
+    color: white;
+
+    padding: .25rem;
+
+    opacity: 0%;
+    transition: 300ms opacity ease;
+
+    position: absolute;
+    top: 2.5%;
+}
+
+.display {
+    height: 100px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.display-ctner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
